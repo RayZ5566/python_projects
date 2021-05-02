@@ -1,5 +1,5 @@
 ## python_projects
-Hello there\
+Hello there!\
 This repository shares my programming projects during the period of stanCode SC101 courses.
 
 
