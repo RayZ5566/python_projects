@@ -94,7 +94,7 @@ def draw_names(canvas, name_data, lookup_names):
     #################################
     for i in range(len(lookup_names)):
         coordinate = []  # list record the coordinate (x,y) for each year
-        c = i % len(COLORS)
+        c = i % len(COLORS)  # selecting color of the line and name
         for j in range(len(YEARS)):
             x = get_x_coordinate(CANVAS_WIDTH, j)+GRAPH_MARGIN_SIZE
             if str(YEARS[j]) in name_data[lookup_names[i]]:  # check if the name is in the ranking dictionary or not
