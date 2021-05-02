@@ -1,6 +1,6 @@
 """
 File: boggle.py
-Name:ray lee
+Name:Ray lee
 ----------------------------------------
 TODO:
 """
@@ -106,17 +106,6 @@ def prefix_set(dictionary):
 	prefixes = set(word[:i] for word in dictionary for i in range(1, len(word)+1))
 	return prefixes
 
-
-# def has_prefix(sub_s):
-# 	"""
-# 	:param sub_s: (str) A substring that is constructed by neighboring letters on a 4x4 square grid
-# 	:return: (bool) If there is any words with prefix stored in sub_s
-# 	"""
-# 	global words
-# 	if len(sub_s) >= 1:
-# 		for word in words:
-# 			if word.startswith(sub_s) is True:
-# 				return True
 
 
 if __name__ == '__main__':
